@@ -7,7 +7,7 @@
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div id="container">
+    <div class="container">
       <div class="box">
         <div>Account Balance</div>
         <div id="account">0</div>
@@ -19,6 +19,14 @@
         <div>Wallet Balance</div>
         <div id="other-wallet">0</div>
       </div>
+    </div>
+    <div class="container">
+      <label>Amount to spend:</label>
+      <input type="text" id="spend"/>
+      <button id="spendBtn">Spend</button>
+    </div>
+    <div class="container">
+      <span id="error"></span>
     </div>
     <script src="index.js"></script>
   </body>
