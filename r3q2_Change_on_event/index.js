@@ -1,3 +1,9 @@
-let box = document.getElementById('the-box');
+let box = document.querySelector('.box');
 
-box.addEventListener(...)
+box.addEventListener('mouseover', function() {
+    box.style.backgroundColor = 'green';
+})
+
+box.addEventListener('mouseout', function() {
+    box.style.backgroundColor = 'white';
+})
